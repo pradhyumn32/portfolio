@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradhyuman Agrawal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b9bd7f51e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="body light">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img id="logo" src="logo.png">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a id="mode" href="#">Switch Mode</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full-stack Web Developer</p>
+                    <h1> Hi, This is <br><span>Pradhyumn</span> Agrawal</h1>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------about me-------------- ---------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img class = "aboutimg1" src="About me.jpg">
+                        <img class = "aboutimg2" src="lightimage/aboutme.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About <span>Me</span> </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis maxime iste unde quibusdam, quisquam voluptates magni dicta magnam necessitatibus labore beatae, suscipit vitae doloremque sapiente quasi provident placeat facilis!
+                    Eos quis laboriosam unde animi libero natus atque nulla repellendus rem architecto earum impedit quia fugiat consequuntur quos deserunt aperiam id blanditiis inventore quisquam, facilis illo cumque numquam vitae. Omnis?
+                    Quibusdam qui accusamus sit. Pariatur quia beatae magni, odit, velit necessitatibus quae possimus accusamus repellat voluptatum est cumque expedita assumenda repellendus soluta! Eveniet nisi nesciunt excepturi aut vero quidem eligendi?</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('Skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('Experince')">Experince</div>
+                        <div class="tab-links" onclick="opentab('Education')">Education </div>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Full-stack Web Developer</span><br>Developing and Designing Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experince">
+                        <ul>
+    <!-- /////////////////////////////////////////////////add Experince/////////////////////////////////////// -->
+                            <li><span>Ideathon 2.0</span><br>Participated in Ideathon 2.0 2023</li>
+                            <li><span>GDSC</span><br>Developing and Designing Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021</span><br>91% in Higher Secondary</li>
+                            <li><span>2022</span><br>96%ile in JEE Mains</li>
+                            <li><span>Current</span><br>Pursuing Graduation in B.tech from IIIT Bhopal</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////services////////////////////////////////// -->
+        <div id="services">
+            <div class="container">
+                <h1>My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-regular fa-image"></i>
+                        <h2> UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quas, magnam aspernatur doloribus optio vitae id cumque ducimus fugiat corrupti odit incidunt veniam perferendis provident at enim, ab consequuntur! Porro!</p>
+                        <a href="#">Learn More!!</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2> Website Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quas, magnam aspernatur doloribus optio vitae id cumque ducimus fugiat corrupti odit incidunt veniam perferendis provident at enim, ab consequuntur! Porro!</p>
+                        <a href="#">Learn More!!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- ----------------------------------------------portfolio----------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="tic-tac-toe.png">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p> The website lets you play the Game TIC-TAC-TOE with your friend.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="rockpaper.jpg" id="rock">
+                    <div class="layer">
+                        <h3>Stone-Paper-Scissors</h3>
+                        <p> The website lets you play the Game Stone-Paper-Scissors against the computer.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portfolio.png" id="portfolio">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p> The Website you are surfing right now with my Intro and contact.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------------------------------------------contact----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> pradhyumnagrawal32@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91-7240899561</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/agrawal_pradhyumn/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pradhyuman-agrawal-4056b625a"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/pradhyumn32"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <!-- /////////// Add google drive link////////////// -->
+                    <a href="#" class="btn btn2"> Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pradhyumn. Contact me for more details.<br>Made with <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+    </div>
+<script src="web.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzlDdgyK3DYWdmEFdiGrl-8jLrY2QKzCDYBlbnkZoeHidRvtltgFArkKsdeD6n6Vpqnkw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerText = "Message sent Successfully";
+            setTimeout(function(){
+                msg.innerText = "";
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
